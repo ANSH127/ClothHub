@@ -38,7 +38,9 @@ include("header.php");
                         </div>
                         <div class="ci-text">
                             <span>Address:</span>
-                            <p>NUST H-12, Islamabad</p>
+                            <p>
+                                LPU, Jalandhar, Punjab, India
+                            </p>
                         </div>
                     </div>
                     <div class="cw-item">
@@ -47,7 +49,7 @@ include("header.php");
                         </div>
                         <div class="ci-text">
                             <span>Phone:</span>
-                            <p>+92 3213352126</p>
+                            <p>+91 7905458520</p>
                         </div>
                     </div>
                     <div class="cw-item">
@@ -56,7 +58,7 @@ include("header.php");
                         </div>
                         <div class="ci-text">
                             <span>Email:</span>
-                            <p>Inferno Co.@gmail.com</p>
+                            <p>ansh12@gmail.com</p>
                         </div>
                     </div>
                 </div>

@@ -8,12 +8,10 @@
     $row_query = mysqli_fetch_array($run_query);
 
     $cname = $row_query['customer_name'];
-    $cimage = $row_query['customer_image'];
 ?>
 
 
 <div class="card">
-        <img class="card-img-top" src="img/customer/<?php echo $cimage ?>" alt="<?php echo $cname ?>" style="width:100%">
         <h4 style="text-align: center;padding:15px 0">
         <?php echo $cname ?>
         </h4>

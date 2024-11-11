@@ -1,9 +1,9 @@
 <?php
 
 $active = "Register";
-include("db.php");
-include("functions.php");
-include('header.php');
+include "db.php";
+include "functions.php";
+include 'header.php';
 ?>
 
 <!-- Breadcrumb Section Begin -->
@@ -72,11 +72,11 @@ include('header.php');
 <!-- Register Form Section End -->
 
 <?php
-include('footer.php');
+include 'footer.php';
 ?>
 
 <script>
-    $("#logform").submit(function(event) {
+    $("#logform").submit(function (event) {
         var name = $('#username').val();
         var email = $('#eemail').val();
         var con = $('#con').val();
@@ -123,7 +123,7 @@ include('footer.php');
 <?php
 
 if (isset($_POST['register'])) {
-
+    echo "<script>alert('Register Clicked')</script>";
     $c_name = $_POST['name'];
     $c_email = $_POST['cemail'];
     $c_address = $_POST['address'];
@@ -136,24 +136,10 @@ if (isset($_POST['register'])) {
     $_SESSION['customer_email'] = $c_email;
     $c_id = $_SESSION['customer_email'];
 
-    $tardir = "img/customer/";
-
-    $fileName = basename($_FILES['pimage']['name']);
-
-    $targetPath = $tardir . $fileName;
-    $fileType = pathinfo($targetPath, PATHINFO_EXTENSION);
-
-    $allow = array('jpg', 'png', 'jpeg');
 
 
-    if (in_array($fileType, $allow)) {
-        if (move_uploaded_file($_FILES['pimage']['tmp_name'], $targetPath)) {
-            $insert_c = "Insert into customer (customer_name,customer_email,customer_pass,customer_address,customer_contact,customer_image,customer_ip)
-            values('$c_name','$c_email','$c_pass','$c_address','$c_contact','$fileName','$c_ip')";
-        }
-    } else {
-        echo "<script>alert('Image not Inserted.')</script>";
-    }
+    $insert_c = "Insert into customer (customer_name,customer_email,customer_pass,customer_address,customer_contact,customer_ip)
+            values('$c_name','$c_email','$c_pass','$c_address','$c_contact','$c_ip')";
 
 
 
