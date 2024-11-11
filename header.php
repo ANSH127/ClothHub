@@ -8,9 +8,9 @@ include('db.php');
 <html lang="en">
 
 <meta charset="UTF-8">
-<meta name="description" content="Inferno Co.">
+<meta name="description" content="clothhub">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Inferno Co.</title>
+<title>ClothHub</title>
 
 <!-- Google Fonts Used -->
 <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -47,13 +47,7 @@ include('db.php');
         <!-- Top Bar -->
         <div class="header-top" id="top">
             <div class="container">
-                <div class="f-left">
-                    <div class="top-social">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="ti-facebook"></i></a>
-                        <a href="https://twitter.com/explore" target="_blank"><i class="ti-twitter-alt"></i></a>
-                        <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="ti-instagram"></i></a>
-                    </div>
-                </div>
+               
 
                 <div class="f-right">
                     <ul class="nav-right">
@@ -99,7 +93,7 @@ include('db.php');
                 <div class="row">
                     <div class="col-md-3 logo">
                         <a href="index.php">
-                            <span>Inferno Co.</span>
+                            <span>ClothHub</span>
                         </a>
                     </div>
 

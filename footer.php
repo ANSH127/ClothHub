@@ -1,5 +1,5 @@
 <!-- Footer Section Begin -->
-<footer class="footer-section">
+<!-- <footer class="footer-section">
     <div class="container">
         <div class="row" style="padding-bottom: 40px;">
             <div class="col-lg-3">
@@ -73,7 +73,7 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> -->
 
 
 <script src="js/jquery-3.3.1.min.js"></script>
